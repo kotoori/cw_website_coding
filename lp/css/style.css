@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+body{
+    background: #fff;
+    color: #464646;
+    min-width: 800px;
+    font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino kaku Gothic ProN", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper1100{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/*** header ***/
+#header{
+    display: flex;
+    justify-content: space-between;
+    margin: 27px auto;
+    align-items: center;
+}
+
+#header ul{
+    display: flex;
+    justify-content: space-between;
+    width: 453px;
+}
+
+#header li a{
+    color: #464646;
+    font-size: 0.875rem;
+    font-family: "KozGoPr6N-Regular";
+}
+
+#header li a:hover{
+    color: #aaaaaa;
+}
+
+/*** mainvisual ***/
+#mainvisual{
+    position: relative;
+    margin: 0 auto 60px;
+}
+
+#mainvisual img{
+    width: 100%;
+    height: 613px;
+    object-fit: cover;
+}
+
+#mainvisual .chachcopy-box{
+    position: absolute;
+    top: 50%;
+    left: 50%   ;
+    transform: translate(-50%,-51.32%);
+    min-width: 800px;
+    padding: 32px 0 25px 0;
+    background: #ffffffCC;
+    color: #000;
+    font-family: "Meiryo";
+}
+
+#mainvisual .chachcopy-en{
+    font-size: 2.5rem;
+    letter-spacing: 0.016em;
+    margin: 0 70px 30px 76px;
+}
+
+#mainvisual .chachcopy-jp{
+    font-size: 2rem;
+    letter-spacing: 0.077em;
+    margin: 0 63px 0 83px;
+}
