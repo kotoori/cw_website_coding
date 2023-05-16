@@ -100,11 +100,11 @@ a{
     display: flex;
     justify-content: space-between;
     color: #fff;
+    margin-bottom: 74px;
 }
 
 .appeal-content .col3{
     width: 31.81%;
-    margin-bottom: 76px;
 }
 
 .appeal-content .content-title{
@@ -119,5 +119,5 @@ a{
     font-size: 1rem;
     line-height: 1.5em;
     margin-left: 6.57%;
-    margin-bottom:32px;
+    margin-bottom:34px;
 }
