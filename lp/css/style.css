@@ -3,7 +3,7 @@
 body{
     background: #fff;
     color: #464646;
-    min-width: 800px;
+    min-width: 1100px;
     font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino kaku Gothic ProN", sans-serif;
 }
 
@@ -14,6 +14,18 @@ a{
 .wrapper1100{
     max-width: 1100px;
     margin: 0 auto;
+}
+
+.bg-blue{
+    background: #4B69C1;
+}
+
+.bg-pink{
+    background: #DE5B83;
+}
+
+.bg-green{
+    background: #61C163;
 }
 
 /*** header ***/
@@ -74,4 +86,38 @@ a{
     font-size: 2rem;
     letter-spacing: 0.077em;
     margin: 0 63px 0 83px;
+}
+
+/*** appeal section ***/
+.section-title{
+    font-size: 2.5rem;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 67px;
+}
+
+.appeal-content{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.appeal-content .col3{
+    width: 31.81%;
+    margin-bottom: 76px;
+}
+
+.appeal-content .content-title{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 33px auto 20px;
+}
+
+
+.appeal-content .message{
+    width: 84.8%;
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin-left: 6.57%;
+    margin-bottom:32px;
 }
