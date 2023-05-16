@@ -104,7 +104,12 @@ a{
 }
 
 .appeal-content .col3{
-    width: 31.81%;
+    width: 31.82%;
+}
+
+.appeal-content .col3 img{
+    width: 100%;
+    height: auto;
 }
 
 .appeal-content .content-title{
