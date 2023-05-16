@@ -16,6 +16,10 @@ a{
     margin: 0 auto;
 }
 
+.wrapper800{
+    max-width: 800px;
+    margin: 0 auto;
+}
 .bg-blue{
     background: #4B69C1;
 }
@@ -125,4 +129,35 @@ a{
     line-height: 1.5em;
     margin-left: 6.57%;
     margin-bottom:34px;
+}
+
+/*** customers voice ***/
+.customers-voice{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 300px;
+    color: #fff;
+    font-family: "KozGoPr6N-Regular";
+}
+
+.voice-headline{
+    font-size: 1.75rem;
+    margin: 85px 0 16px;
+}
+
+.voice-message{
+    font-size:0.875rem;
+    line-height: 1.714em;
+
+}
+
+.customers-voice img{
+    width: 24.375%;
+    height: 65%;
+    border-radius:50%;
+    margin-left: 4.5%;
+    margin-right: 3.5%;
+    margin-top: 53px;
+
 }
