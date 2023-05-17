@@ -36,7 +36,11 @@ a{
 }
 
 .bg-gray{
-    background: #E7E7E7
+    background: #E7E7E7;
+}
+
+.bg-black{
+    background: #222222;
 }
 
 /*** 
@@ -248,4 +252,36 @@ a{
 .btn:hover{
     background:#ff98b7;
     transition: background-color .1s linear;
+}
+
+/***
+ fotter
+***/
+.link-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 0 52px;
+}
+
+.list-title{
+    font-size: 1rem;
+    color: #EEEEEE;
+    margin-bottom: 13px;
+}
+
+.link-list{
+    font-size: 0.75rem;
+    line-height: 1.8em;
+}
+
+.link-list li a{
+    color: #CCCCCC;
+}
+
+.copyright{
+    font-size: 0.875rem;
+    color: #fff;
+    text-align: center;
+    border-top: solid 1px #EEEEEE;
+    padding: 29px 0;
 }
