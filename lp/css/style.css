@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+/*** 
+ General Setting 
+***/
 body{
     background: #fff;
     color: #464646;
@@ -32,7 +35,9 @@ a{
     background: #61C163;
 }
 
-/*** header ***/
+/*** 
+ header
+***/
 #header{
     display: flex;
     justify-content: space-between;
@@ -56,7 +61,9 @@ a{
     color: #aaaaaa;
 }
 
-/*** mainvisual ***/
+/***
+ mainvisual
+***/
 #mainvisual{
     position: relative;
     margin: 0 auto 60px;
@@ -92,7 +99,9 @@ a{
     margin: 0 63px 0 83px;
 }
 
-/*** appeal section ***/
+/*** 
+ appeal section
+***/
 .section-title{
     font-size: 2.5rem;
     color: #333333;
@@ -131,7 +140,9 @@ a{
     margin-bottom:34px;
 }
 
-/*** customers voice ***/
+/***
+ customers voice
+***/
 .customers-voice{
     display: flex;
     justify-content: space-between;
