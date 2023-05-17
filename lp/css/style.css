@@ -35,6 +35,10 @@ a{
     background: #61C163;
 }
 
+.bg-gray{
+    background: #E7E7E7
+}
+
 /*** 
  header
 ***/
@@ -200,7 +204,6 @@ a{
 
 .feature-box{
     width: 47.5%;
-    background: #E7E7E7;
     color: #010101;
     font-family: "KozGoPr6N-Regular";
     border-radius: 10px;
@@ -216,4 +219,33 @@ a{
 .feature-message{
     margin: 0 9.22% 20px 7.632%;
     font-size: 1.5rem;
+}
+
+/***
+ contact
+***/
+.contact{
+    padding:54px 0 76px;
+}
+
+.contact-infomation{
+    font-size: 1.875rem;
+    line-height: 1.217;
+    margin-bottom: 63px;    
+}
+
+.btn{
+    display: block; 
+    font-size: 2.12rem;
+    color: #fff;
+    text-align: center;
+    padding: 27px 0 33px;
+    border-radius: 13px;
+
+}
+
+.btn:hover{
+    background:#ff98b7;
+    transition: background-color .1s linear;
+
 }
