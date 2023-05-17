@@ -230,15 +230,16 @@ a{
 
 .contact-infomation{
     font-size: 1.875rem;
-    line-height: 1.217;
+    line-height: 1.25em;
     margin-bottom: 63px;    
 }
 
 .btn{
     display: block; 
-    font-size: 2.12rem;
+    font-size: 2.125rem;
     color: #fff;
     text-align: center;
+    letter-spacing: 0.0176em;
     padding: 27px 0 33px;
     border-radius: 13px;
 
@@ -247,5 +248,4 @@ a{
 .btn:hover{
     background:#ff98b7;
     transition: background-color .1s linear;
-
 }
