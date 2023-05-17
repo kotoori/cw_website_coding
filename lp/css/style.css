@@ -1,4 +1,4 @@
-@charset "utf-8";
+@featureset "utf-8";
 
 /*** 
  General Setting 
@@ -173,20 +173,20 @@ a{
 
 }
 /***
- charctoristics
+ feature
 ***/
-.charctoristics{
+.feature{
     position: relative;
 }
 
-.charctoristics img{
+.feature img{
     width: 100%;
     height: 610px;
     object-fit: cover;
     object-position: 50% 0%;
 }
 
-.charctoristics .col2row2{
+.feature .col2row2{
     position: absolute;
     top: 50%;
     left: 50%   ;
@@ -198,7 +198,7 @@ a{
     min-width: 800px;
 }
 
-.char-box{
+.feature-box{
     width: 47.5%;
     background: #E7E7E7;
     color: #010101;
@@ -206,14 +206,14 @@ a{
     border-radius: 10px;
 }
 
-.char-headline{
+.feature-headline{
     margin: 27px 0;
     font-size: 1.75rem;
     text-align: center;
 
 }
 
-.char-message{
+.feature-message{
     margin: 0 9.22% 20px 7.632%;
     font-size: 1.5rem;
 }
