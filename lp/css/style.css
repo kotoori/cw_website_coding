@@ -135,10 +135,20 @@ a{
 .customers-voice{
     display: flex;
     justify-content: space-between;
-    width: auto;
-    height: 300px;
     color: #fff;
     font-family: "KozGoPr6N-Regular";
+}
+
+/* お客様の声1の画像とテキストの並びを入れ替える */
+.voice1{
+    flex-direction: row-reverse;
+}
+
+.customers-voice img{
+    width: 24.375%;
+    height: auto;
+    border-radius:50%;
+    margin: 52.5px 3.5%;
 }
 
 .voice-headline{
@@ -152,11 +162,3 @@ a{
 
 }
 
-.customers-voice img{
-    width: 24.375%;
-    height: 65%;
-    border-radius:50%;
-    margin-left: 3.5%;
-    margin-right: 3.5%;
-    margin-top: 52.5px;
-}
