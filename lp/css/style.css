@@ -62,7 +62,7 @@ img{
 }
 
 #header ul{
-    width: 453px;
+    width: 453px; /* ナビゲーションメニューの横幅は固定とする */
 }
 
 #header li a{
@@ -92,13 +92,12 @@ img{
 #mainvisual .chachcopy-box{
     position: absolute;
     top: 50%;
-    left: 50%   ;
+    left: 50%;
     transform: translate(-50%,-51.32%);
-    min-width: 800px;
-    padding: 32px 0 25px 0;
-    background: #ffffffCC;
+    width: 800px;
+    padding: 32px 0 25px;
+    background: rgba(255,255,255,0.8);
     color: #000;
-    font-family: "Meiryo";
 }
 
 #mainvisual .chachcopy-en{
@@ -124,18 +123,13 @@ img{
 }
 
 .appeal-content{
-    color: #fff;
     margin-bottom: 74px;
 }
 
 .appeal-content .col3{
     width: 31.82%;
-}
-
-.appeal-content .col3 img{
-    width: 100%;
-    height: auto;
-}
+    color: #fff;
+    }
 
 .appeal-content .content-title{
     font-size: 1.5rem;
@@ -155,9 +149,8 @@ img{
 /***
  customers voice
 ***/
-/* お客様の声1の画像とテキストの並びを入れ替える */
 .voice1{
-    flex-direction: row-reverse;
+    flex-direction: row-reverse;/* お客様の声1の画像とテキストの並びを入れ替える */
 }
 
 .customer-img{
@@ -191,16 +184,16 @@ img{
 }
 
 .feature img{
-    width: 100%;
-    height: 610px;
+    width: 103%;
+    height: 611px;
     object-fit: cover;
-    object-position: 50% 0%;
+    object-position: 50% 0%; /* 画像の表示範囲を指定 */   
 }
 
 .feature .col2row2{
     position: absolute;
     top: 50%;
-    left: 50%   ;
+    left: 50%;
     transform: translate(-50%,-50%);
     gap: 30px;
     min-width: 800px;
