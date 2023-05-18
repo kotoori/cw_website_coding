@@ -23,6 +23,12 @@ a{
     max-width: 800px;
     margin: 0 auto;
 }
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .bg-blue{
     background: #4B69C1;
 }
@@ -47,15 +53,11 @@ a{
  header
 ***/
 #header{
-    display: flex;
-    justify-content: space-between;
     margin: 27px auto;
     align-items: center;
 }
 
 #header ul{
-    display: flex;
-    justify-content: space-between;
     width: 453px;
 }
 
@@ -118,8 +120,6 @@ a{
 }
 
 .appeal-content{
-    display: flex;
-    justify-content: space-between;
     color: #fff;
     margin-bottom: 74px;
 }
@@ -151,23 +151,22 @@ a{
 /***
  customers voice
 ***/
-.customers-voice{
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-    font-family: "KozGoPr6N-Regular";
-}
-
 /* お客様の声1の画像とテキストの並びを入れ替える */
 .voice1{
     flex-direction: row-reverse;
 }
 
-.customers-voice img{
+.customer-img{
     width: 24.375%;
     height: auto;
     border-radius:50%;
     margin: 52.5px 3.5%;
+}
+
+.voice-text{
+    width: 67.5%;
+    color: #fff;
+    font-family: "KozGoPr6N-Regular";
 }
 
 .voice-headline{
@@ -199,9 +198,6 @@ a{
     top: 50%;
     left: 50%   ;
     transform: translate(-50%,-50%);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     gap: 30px;
     min-width: 800px;
 }
@@ -258,8 +254,6 @@ a{
  fotter
 ***/
 .link-box{
-    display: flex;
-    justify-content: space-between;
     padding: 33px 0 52px;
 }
 
