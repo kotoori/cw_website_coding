@@ -72,8 +72,6 @@
     ***/
     .customer-img{
         width: 16%;
-        height: auto;
-        border-radius:50%;
         margin: auto 2%;
     }
     .voice-text{
@@ -85,8 +83,6 @@
     }
 
     .voice-message{
-        font-size:0.875rem;
-        line-height: 1.714em;
         margin: 20px 0 16px 3%;
     }
     /***
@@ -120,6 +116,7 @@
 
     .contact-infomation{
         font-size: 1.5rem;
+        margin: 0 3% 60px;
     }
 
     .btn{
@@ -135,7 +132,6 @@
     }
     .list-title{
         font-size: 0.875rem;
-        margin-bottom: 13px;
     }
 
     .link-list{
