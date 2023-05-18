@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+@media screen and (max-width:375px) {
+
+    body{
+        min-width: auto;
+        width: auto;
+    }
+    /*** 
+    header
+    ***/
+
+    /***
+    mainvisual
+    ***/
+    #mainvisual img{
+        height: 300px;
+    }
+    #mainvisual .chachcopy-box{ 
+        transform: translate(-50%,-40%);
+        width: 350px;
+        padding:16px 0; 
+    }
+
+    #mainvisual .chachcopy-en{
+        font-size: 1rem;
+        margin: 0 auto 12px;
+        text-align: center;
+    }
+
+    #mainvisual .chachcopy-jp{
+        font-size: 0.875rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /*** 
+    appeal
+    ***/
+    .section-title{
+        font-size: 1rem;
+        margin: 20px 0;
+    }
+
+    .appeal-content{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .appeal-content .col3{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .appeal-content img{
+        width: 100%;
+    }
+
+    .appeal-content .content-title{
+        font-size: 0.875rem;
+        margin: 10px 0;
+    }
+
+    .appeal-content .message{
+        width: 95%;
+        font-size: 10px;
+        margin: 0 auto 10px;
+    }
+
+    /***
+    customers voice
+    ***/
+    .customer-img{
+        width: 16%;
+        height: auto;
+        border-radius:50%;
+        margin: auto 2%;
+    }
+    .voice-text{
+        width: 80%;
+    }
+    .voice-headline{
+        font-size: 1rem;
+        margin: 20px 3% 16px;
+    }
+
+    .voice-message{
+        font-size:0.875rem;
+        line-height: 1.714em;
+        margin: 20px 0 16px 3%;
+    }
+    /***
+    feature
+    ***/
+
+    .feature img{
+        height: 300px;
+    }
+    .feature .col2row2{
+        gap: 10px;
+        min-width: 0;
+        width: 90%
+    } 
+
+    .feature-headline{
+        margin: 10px 0;
+        font-size: 1rem;
+    }
+
+    .feature-message{
+        font-size: 0.75rem;
+    }
+
+    /***
+    contact
+    ***/
+    .contact{
+        padding:20px 0;
+    }
+
+    .contact-infomation{
+        font-size: 1.5rem;
+    }
+
+    .btn{
+        width: 90%;
+        margin:0 auto;
+    }
+
+    /***
+    footer
+    ***/
+    .link-box{
+        padding: 20px 3%;
+    }
+    .list-title{
+        font-size: 0.875rem;
+        margin-bottom: 13px;
+    }
+
+    .link-list{
+        font-size: 0.625rem;
+    }
+    .copyright{
+        font-size: 0.75rem;
+    }
+
+} /* @media screen */
