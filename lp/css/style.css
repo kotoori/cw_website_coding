@@ -112,6 +112,15 @@ img{
     margin: 0 63px 0 83px;
 }
 
+.slideshow {
+    display: none; /* 初期状態で非表示にする */
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto;
+}
+
 /*** 
  appeal
 ***/
@@ -280,3 +289,4 @@ img{
     border-top: solid 1px #EEEEEE;
     padding: 29px 0;
 }
+
