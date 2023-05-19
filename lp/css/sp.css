@@ -11,24 +11,30 @@
     ***/
 
     /***
-    mainvisual
+    mainvisual / slideshow
     ***/
     #mainvisual img{
         height: 300px;
     }
-    #mainvisual .chachcopy-box{ 
+
+    .slideshow img{
+        height: 300px;
+
+    }
+
+    .chachcopy-box{ 
         transform: translate(-50%,-40%);
         width: 350px;
         padding:16px 0; 
     }
 
-    #mainvisual .chachcopy-en{
+    .chachcopy-en{
         font-size: 1rem;
         margin: 0 auto 12px;
         text-align: center;
     }
 
-    #mainvisual .chachcopy-jp{
+    .chachcopy-jp{
         font-size: 0.875rem;
         margin: 0 auto;
         text-align: center;
