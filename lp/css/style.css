@@ -129,7 +129,12 @@ img{
 .appeal-content .col3{
     width: 31.82%;
     color: #fff;
-    }
+}
+
+.appeal-content .col3 img{
+    width: 100%;
+    height: auto;
+}
 
 .appeal-content .content-title{
     font-size: 1.5rem;
