@@ -81,6 +81,7 @@ img{
 #mainvisual{
     position: relative;
     margin: 0 auto 0;
+    display: none; /* 初期状態で非表示にする */
 }
 
 #mainvisual img{
@@ -89,7 +90,7 @@ img{
     object-fit: cover;
 }
 
-#mainvisual .chachcopy-box{
+.chachcopy-box{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -100,25 +101,27 @@ img{
     color: #000;
 }
 
-#mainvisual .chachcopy-en{
+.chachcopy-en{
     font-size: 2.5rem;
     letter-spacing: 0.016em;
     margin: 0 70px 30px 76px;
 }
 
-#mainvisual .chachcopy-jp{
+.chachcopy-jp{
     font-size: 2rem;
     letter-spacing: 0.077em;
     margin: 0 63px 0 83px;
 }
 
 .slideshow {
-    display: none; /* 初期状態で非表示にする */
+    /*display: none;*/ /* 初期状態で非表示にする */
+    position: relative;
 }
 
 .slideshow img {
     width: 100%;
-    height: auto;
+    height: 613px;
+    object-fit: cover;
 }
 
 /*** 
