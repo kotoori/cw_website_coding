@@ -61,11 +61,11 @@ img{
     align-items: center;
 }
 
-#header ul{
+#header nav ul{
     width: 453px; /* ナビゲーションメニューの横幅は固定とする */
 }
 
-#header li a{
+#header nav li a{
     color: #464646;
     font-size: 0.875rem;
     font-family: "KozGoPr6N-Regular";
