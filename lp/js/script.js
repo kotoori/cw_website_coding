@@ -3,7 +3,6 @@ $(function(){
     //ハンバーガーメニュークリックでnavの表示を切り替え
     $('.humburger').on('click', function () {
         $(this).toggleClass('active');   /* activeクラスのON/OFF切り替え */ 
-//        console.log('active='+$(this).hasClass('active'));
         if($(this).hasClass('active')){ /* activeクラスON */
             $('nav').css({
                 'visibility': 'visible', /* nav要素をを可視＆クリック可能にする */
