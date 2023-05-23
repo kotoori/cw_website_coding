@@ -7,10 +7,10 @@
     .humburger {
         position: fixed;    /* ハンバーガーメニューを固定で表示 */
         z-index: 100;       /* ハンバーガーメニューを前面に表示 */
-        top: 35px;          /* ハンバーガーメニューの位置 */
-        right: 20px;        
-        width: 34px;
-        height: 28px;
+        top: 25px;          /* ハンバーガーメニューの位置 */
+        right: 40px;        
+        width: 45px;
+        height: 38px;
         cursor: pointer;    /* カーソルの形をポインタにする */
     }
     
@@ -20,7 +20,7 @@
         left: 0;
         width: 100%;
         height: 4px;
-        background-color: #383838;
+        background-color: #000;
         border-radius: 4px; /* 角丸 */
     }
 
@@ -29,7 +29,7 @@
     }
 
     .humburger span:nth-of-type(2) { /* 2本目の線 */
-        top: 12px;
+        top: 17px;
     }
 
     .humburger span:nth-of-type(3) { /* 3本目の線 */
@@ -42,7 +42,7 @@
     }
 
     .humburger.active span:nth-of-type(1) { /* 1本目の線 */
-        transform: translateY(12px) rotate(-45deg); /* 下に12px移動、反時計回りに45度回転 */
+        transform: translateY(17px) rotate(-45deg); /* 下に12px移動、反時計回りに45度回転 */
     }  
     
     .humburger.active span:nth-of-type(2) { /* 2本目の線 */
@@ -57,7 +57,7 @@
     }
 
     .humburger.active span:nth-of-type(3) { /* 3本目の線 */
-        transform: translateY(-12px) rotate(45deg) /* 上に12px移動、時計回りに45度回転 */ 
+        transform: translateY(-17px) rotate(45deg) /* 上に12px移動、時計回りに45度回転 */ 
     }
 
     .humburger, .humburger span {
