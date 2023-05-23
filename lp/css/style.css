@@ -75,6 +75,10 @@ img{
     color: #aaaaaa;
 }
 
+.humburger{
+    display: none;  /* ハンバーガーメニューはレンダリングしない（PC時）*/
+}
+
 /***
  mainvisual
 ***/
