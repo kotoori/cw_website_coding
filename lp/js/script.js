@@ -1,6 +1,7 @@
 $(function(){
-
-    //ハンバーガーメニュークリックでnavの表示を切り替え
+    /*********************************************/
+    /* ハンバーガーメニュークリックでnavの表示を切り替え */
+    /*********************************************/
     $('.humburger').on('click', function () {
         $(this).toggleClass('active');   /* activeクラスのON/OFF切り替え */ 
         if($(this).hasClass('active')){ /* activeクラスON */
@@ -17,4 +18,22 @@ $(function(){
         return false;
     });
 
+    /*************************************/
+    /* mainvisualの画像をスライドショーで表示 */
+    /*************************************/
+    $('.slideshow').slick({
+        dots: true,             /* ドットインジケーター表示 */
+        speed: 1000,            /* アニメーション速度 1000ms */
+        autoplay: true,         /* 自動再生 */
+        centerMode: true,       /* 前後の画像を両端に表示 */
+        centerPadding: '10%',   /* 両端の見切れる幅 */
+
+        responsive: [{          /* レスポンシブ対応 */
+            breakpoint: 758,    /* ブレイクポイント:758px */
+            settings: {
+                centerMode: false,  /* 前後のスライドを両端に表示しない */
+                centerPadding: '0', /* 両端の見切れる幅0 */
+            },
+        },],
+    });
 });
