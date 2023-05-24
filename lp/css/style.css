@@ -53,6 +53,14 @@ img{
     background: #222222;
 }
 
+/* PC時とSP時で画像を切り替え */
+.img-select img:nth-of-type(1){
+    display:inline;     /* PC用画像：表示 */
+}
+.img-select img:nth-of-type(2){
+    display:none;       /* SP用画像：非表示 */
+}
+
 /*** 
  header
 ***/
@@ -141,21 +149,6 @@ img{
     height: auto;
 }
 
-/* PC時とSP時で画像を切り替え */
-.appeal-content .col3 img:nth-of-type(1){
-    display:inline;     /* PC用画像：表示 */
-}
-.appeal-content .col3 img:nth-of-type(2){
-    display:none;       /* SP用画像：非表示 */
-}
-
-.appeal-content .content-title{
-    font-size: 1.5rem;
-    text-align: center;
-    margin: 33px auto 20px;
-}
-
-
 .appeal-content .message{
     width: 85.2%;
     font-size: 1rem;
@@ -169,14 +162,6 @@ img{
 ***/
 .voice1{
     flex-direction: row-reverse;/* お客様の声1の画像とテキストの並びを入れ替える */
-}
-
-/* PC時とSP時で画像を切り替え */
-.voice-box img:nth-of-type(1){
-    display:inline;     /* PC用画像：表示 */
-}
-.voice-box img:nth-of-type(2){
-    display:none;       /* SP用画像：非表示 */
 }
 
 .customer-img{
@@ -207,14 +192,6 @@ img{
 ***/
 .feature{
     position: relative;
-}
-
-/* PC時とSP時で画像を切り替え */
-.feature img:nth-of-type(1){
-    display:inline;     /* PC用画像：表示 */
-}
-.feature img:nth-of-type(2){
-    display:none;       /* SP用画像：非表示 */
 }
 
 .feature img{
