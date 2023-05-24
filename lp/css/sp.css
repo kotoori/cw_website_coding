@@ -162,6 +162,14 @@
         margin-bottom: 20px;
     }
     
+    /* PC時とSP時で画像を切り替え */
+    .appeal-content .col3 img:nth-of-type(1){
+        display:none;       /* PC用画像：非表示 */
+    }
+    .appeal-content .col3 img:nth-of-type(2){
+        display:inline;     /* SP用画像：表示 */   
+    }
+    
     .appeal-content .content-title{
         font-size: 1.25rem;
         margin: 25px auto 17px;
