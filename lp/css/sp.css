@@ -1,6 +1,9 @@
 @charset "utf-8";
 
 @media screen and (max-width:758px){
+    body{
+        min-width: 0;
+    }
     /***
     ハンバーガーメニュー
     ***/
@@ -104,4 +107,35 @@
         border-bottom: solid 3px #fff;
     }
     
+    /***
+     mainvisual
+    ***/
+    #mainvisual{
+        margin: 0 auto 95px;
+    }
+
+    #mainvisual img{
+        height: 332px;
+    }
+
+    #mainvisual .chachcopy-box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-51.32%);
+        width: 91.72%;
+        padding: 26.5px 0;
+        background: rgba(255,255,255,0.8);
+        color: #000;
+        text-align: center;
+    }
+
+    #mainvisual .chachcopy-en{
+        font-size: 1.25rem;
+        margin: 0 0 23px;
+    }
+    
+    #mainvisual .chachcopy-jp{
+        font-size: 1.125rem;
+        margin: 0;
 } /* max-width:758px */
