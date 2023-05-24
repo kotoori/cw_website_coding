@@ -213,5 +213,33 @@
     .voice-headline{
         margin: 0 auto 36px;
     }
-    
+
+    /***
+     feature
+    ***/
+    .feature img{
+        height: 550px;
+    }
+
+    .feature .col2row2{
+        min-width: 0;
+        width: 86%;
+        gap: 4.22vw;
+    }   
+
+    .feature-box{
+        /*width: 46.2%;*/
+        width: 39.6vw;
+    }
+
+    .feature-headline{
+        margin: 28px 0;
+        font-size: 1.125rem;
+    }
+
+    .feature-message{
+        margin: 0 11.67% 53px 10%;
+        font-size: 0.875rem;
+    }
+
 } /* max-width:758px */
