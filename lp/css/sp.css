@@ -239,4 +239,31 @@
         font-size: 0.875rem;
     }
 
+    /***
+    contact
+    ***/
+    .contact{
+        padding: 49px 29px 77px;
+    }
+
+    .contact-infomation{
+        font-size: 1.25rem;
+        line-height: 1.575;
+        margin-bottom: 46px;
+    }
+
+    /***
+    footer
+    ***/
+    .link-box{
+       padding: 42px 0 15px 5.6% 
+    }
+    .link-box .col4{
+        width: 43.7%;
+        margin-bottom: 30px;
+    }
+
+    .copyright{
+        padding: 25px 0 29px;
+    
 } /* max-width:758px */
