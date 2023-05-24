@@ -209,6 +209,14 @@ img{
     position: relative;
 }
 
+/* PC時とSP時で画像を切り替え */
+.feature img:nth-of-type(1){
+    display:inline;     /* PC用画像：表示 */
+}
+.feature img:nth-of-type(2){
+    display:none;       /* SP用画像：非表示 */
+}
+
 .feature img{
     width: 103%;
     height: 611px;
