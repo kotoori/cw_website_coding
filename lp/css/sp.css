@@ -4,6 +4,10 @@
     body{
         min-width: 0;
     }
+
+    br{
+        display: none; /* SP時は<br>を無効化 */
+    }
     /***
     ハンバーガーメニュー
     ***/
@@ -139,4 +143,35 @@
         font-size: 1.125rem;
         margin: 0;
     }
+
+    /*** 
+    appeal
+    ***/
+    .section-title{
+        font-size: 1.25rem; 
+        margin-bottom: 27px;
+    }    
+
+    .appeal-content{
+        display: block;
+        margin-bottom: 51px;
+    }
+
+    .appeal-content .col3{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .appeal-content .content-title{
+        font-size: 1.25rem;
+        margin: 25px auto 17px;
+    }
+    .appeal-content .message{
+        width: 95.4%;
+        margin: 0 auto;
+        font-size: 0.875rem;
+        height: 52px;
+        padding-bottom: 22px;
+    }
+
 } /* max-width:758px */
