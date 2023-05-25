@@ -246,10 +246,9 @@ img{
     font-size: 2.125rem;
     color: #fff;
     text-align: center;
-    letter-spacing: 0.0176em;
+    letter-spacing: 0.047em;
     padding: 27px 0 33px;
     border-radius: 13px;
-
 }
 
 .btn:hover{
