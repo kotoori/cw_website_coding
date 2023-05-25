@@ -103,6 +103,7 @@
 
     #header{
         display: block; /* flex解除 */
+        margin: 37px auto;
     }
 
     #header nav ul{
@@ -123,12 +124,6 @@
         border-bottom: solid 3px #fff;
     }
     
-    /***
-     header
-    ***/
-    #header{
-        margin: 37px auto;
-    }
     /***
      mainvisual
     ***/
