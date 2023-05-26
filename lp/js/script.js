@@ -29,7 +29,7 @@ $(function(){
         centerPadding: '10%',   /* 両端の見切れる幅 */
 
         responsive: [{          /* レスポンシブ対応 */
-            breakpoint: 768.01,    /* ブレイクポイント:768px */
+            breakpoint: 769,    /* ブレイクポイント:768px(769pxより小さくなったとき) */
             settings: {
                 centerMode: false,  /* 前後のスライドを両端に表示しない */
                 centerPadding: '0', /* 両端の見切れる幅0 */
