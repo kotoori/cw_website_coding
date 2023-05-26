@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media screen and (max-width:758px){
+@media screen and (max-width:768px){
     /***
     General Setting 
     ***/
@@ -269,4 +269,4 @@
         padding: 25px 0 29px;
     }
 
-} /* max-width:758px */
+} /* max-width:768px */
