@@ -38,7 +38,7 @@
         position: absolute; /* 基準(親要素)からの絶対位置指定 */
         left: 0;
         width: 100%;
-        height: 4px;
+        height: 6px;
         background-color: #000;
         border-radius: 4px; /* 角丸 */
     }
