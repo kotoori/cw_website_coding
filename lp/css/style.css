@@ -94,6 +94,7 @@ img{
 #mainvisual{
     position: relative;
     margin: 0 auto 60px;
+    overflow: hidden;   /* jQueryのslick()でできる右余白を消す */
 }
 
 #mainvisual img{
@@ -192,6 +193,7 @@ img{
 ***/
 .feature{
     position: relative;
+    overflow: hidden;   /* imgのはみ出した部分を消す */
 }
 
 .feature img{
