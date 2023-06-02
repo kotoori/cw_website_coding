@@ -48,7 +48,7 @@
     }
 
     .humburger span:nth-of-type(2) { /* 2本目の線 */
-        top: 17px;
+        top: 16px;
     }
 
     .humburger span:nth-of-type(3) { /* 3本目の線 */
@@ -61,7 +61,7 @@
     }
 
     .humburger.active span:nth-of-type(1) { /* 1本目の線 */
-        transform: translateY(17px) rotate(-45deg); /* 下に12px移動、反時計回りに45度回転 */
+        transform: translateY(16px) rotate(-45deg); /* 下に16px移動、反時計回りに45度回転 */
     }  
     
     .humburger.active span:nth-of-type(2) { /* 2本目の線 */
@@ -76,7 +76,7 @@
     }
 
     .humburger.active span:nth-of-type(3) { /* 3本目の線 */
-        transform: translateY(-17px) rotate(45deg) /* 上に12px移動、時計回りに45度回転 */ 
+        transform: translateY(-16px) rotate(45deg) /* 上に16px移動、時計回りに45度回転 */ 
     }
 
     .humburger, .humburger span {
