@@ -16,7 +16,7 @@ $(function(){
     $('#header nav ul li a').on('click', function () {
         $('.humburger').removeClass('active');   /* activeクラスのON/OFF切り替え */ 
         $('#header nav').removeClass('active');   /* activeクラスのON/OFF切り替え */ 
-        return false;
+        return true;
     });
 
     /*************************************/
