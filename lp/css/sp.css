@@ -101,6 +101,11 @@
         text-align: right;  /* メニュー全体(inline-block)を右寄せ */
     }
 
+    #header nav.active {
+        visibility: visible; /* active時は可視＆クリック可能 */
+        opacity: 1;          /* active時は不透明 */
+    }
+
     #header{
         display: block; /* flex解除 */
         margin: 37px auto;
