@@ -9,6 +9,16 @@ $(function(){
         return false;
     });
 
+    /***************************************
+     * ハンバーガーメニュー内のナビメニュークリックで
+     * .humburgerとnavのactiveクラスをOFF(navを閉じる)
+    /***************************************/
+    $('#header nav ul li a').on('click', function () {
+        $('.humburger').removeClass('active');   /* activeクラスのON/OFF切り替え */ 
+        $('#header nav').removeClass('active');   /* activeクラスのON/OFF切り替え */ 
+        return false;
+    });
+
     /*************************************/
     /* mainvisualの画像をスライドショーで表示 */
     /*************************************/
